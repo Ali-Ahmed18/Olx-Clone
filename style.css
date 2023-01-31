@@ -1,0 +1,359 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    overflow-x: hidden;
+}
+                    /* TOPNAV */
+.navv {
+    display: flex;
+    flex-direction: column;
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+.topnav {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    width: 80%;
+    margin: 5px auto;
+}
+
+._1a6eed8f:hover {
+    fill: #3a77ff;
+
+}
+
+.topicon {
+    color: #222;
+    text-decoration: none;
+}
+                     /************bottomnav*************/
+.bottomnav {
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.bottomnavwraper {
+    width: 79%;
+    margin: 10px auto;
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.searchboxwraper {
+    display: flex;
+}
+
+.searchbox {
+    display: flex;
+    align-items: center;
+    border: 1px solid #222;
+    border-radius: 5px;
+    padding: 10px 5px 10px 5px;
+}
+
+.searchbox input {
+    margin-left: 10px;
+    border: none;
+    font-size: 15px;
+}
+
+.searchbox1 input {
+    margin-left: 10px;
+    border: none;
+    width: 400px;
+    font-size: 15px;
+}
+
+.a3e390b5 {
+    background-color: #002f34;
+    width: 50px;
+    border: 1px solid #002f34;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.a3e390b5 path {
+    background-color: aliceblue !important;
+}
+
+.searchbox input:focus {
+    outline: none;
+}
+
+.searchbox1 input:focus {
+    outline: none;
+}
+
+.searchbox1 {
+    display: flex;
+    align-items: center;
+    border: 1px solid #222;
+    padding: 10px 5px 10px 5px;
+    border-right: none;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    margin-left: 15px;
+}
+.sellborder{
+    position: relative;
+    border-radius: initial;
+}
+.sellborder:hover{
+    cursor: pointer;
+}
+.log{
+    color: #222;
+    font-weight: bold;
+}
+.log:hover{
+    text-decoration: none;
+}
+.sellborder span{
+    position: absolute;
+    left: 25%;
+    top: 19%;
+    display: inline-block;
+    font-size: 17px;
+    font-weight: bold;
+}
+
+                    /**********categories***********/
+
+.categories{
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1) ;
+    margin-bottom: 20px;
+}                            
+.categories ul{
+    list-style-type: none;
+    width: 82%;
+    margin: 10px auto;
+    font-size: 15px;
+}   
+.categories a{
+    text-decoration: none;
+    color: #222;
+}                         
+.categories a:hover{
+    color: rgb(137, 199, 199);
+}
+
+                    /********AD Carousel*********/
+.widthcarousel{
+    width: 1240px !important;
+    margin: 0 auto;
+}
+.itemwidth{
+    width: 100%;
+}
+.freshwidth{
+    width: 1250px;
+    margin: 0 auto;
+}
+                /* ***************Card**************** */
+.CARDOLX{
+    width: 300px;
+    height: 270px;
+    border-radius: 5px;
+    overflow: hidden;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+}
+.featured{
+    border-left: 5px solid #ffce32;
+}
+.featuredbox{
+    position: relative;
+}
+.featuredboxtext{
+    position: absolute;
+    bottom: 3%;
+    left: 3%;
+    background-color: #ffce32;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    width: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.blankcard{
+    background-color: #3a77ff;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+.blankcard button{
+    width: 100%;
+    border-radius: 5px;
+    background-color: transparent;
+    border: 1px solid #fff;
+    color: #fff;
+    padding: 10px 0px;
+}
+.blankcardwraper{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.image{
+    height: 50%;
+    background-color: #222;
+}
+.image img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+.about{
+    padding: 10px;
+    position: relative;
+    height: 50%;
+}
+.about p{
+    margin-bottom: 0.5rem !important;
+}
+.about h4{
+    font-weight: bold;
+}
+.about span{
+    position: absolute;
+    bottom: 2%;
+    left: 2%;
+    font-size: 13px;
+    color: #666;
+}
+.nopading{
+    margin-top: 10px;
+    padding: 0px 0px 10px 0px;
+}
+.loadmorebutton{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.loadmorebutton button{
+    padding: 10px;
+    font-weight: bold;
+    background-color: transparent;
+    border-radius: 5px;
+}
+.loadmorebutton button:hover{
+    transform: scale(1.05);
+}
+
+                /******************BottomAD**************/
+.bottomad{
+    margin-top: 80px;
+}
+.bottomwadraper{
+    width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.bottomwadraper1{
+    width: 47%;
+}
+.bottomwadraper2{
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    height: 130px;
+}
+.bottomwadraper3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 47%;
+}
+
+            /* ***************footercategories**************** */
+.footercategories{
+    border-top: 1px solid rgba(0,47,52,.2);
+    background-color: #ebeeef;
+}
+.footercategories-wraper{
+    width: 1000px;
+    background-color: #ebeeef;
+    margin: 0 auto;
+    padding: 10px 0px;
+    display: flex;
+    gap: 20px;
+}
+.footercategories-wraper a:hover{
+    color: #002f34;
+}
+.footercategories-wraper a{
+    font-size: 13px;
+    text-decoration: none;
+    color: #666;
+}
+.footercategories-wraper li{
+    list-style: none;
+}
+.footercategories-heading{
+    font-weight: bold;
+    color: #002f34;
+}
+.footercategories-lastflex{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+                /* **********footer************ */
+footer{
+    background-color: #002f34;
+}
+.bottomfooter{
+    background-color: #002f34;
+    width: 1000px;
+    margin: 0 auto;
+}
+.bottomfooter span{
+    color: #fff;
+    display: block;
+    padding: 15px;
+    text-align: right;
+} 
+@media only screen and (max-width:1024px){
+
+    .widthcarousel {
+        width: 98% !important;
+        margin: 0 auto;
+      }
+    .CARDOLX{
+        width: 235px;
+        height: 270px;
+    }
+    .freshwidth{
+        width: 99%;
+    }
+    .categories ul{
+        width: 100%;
+        margin: 5px auto;
+        font-size: 12px;
+    }
+    .bottomnavwraper{
+        width: 100%;
+        margin: 15px auto;
+        gap: 18px;
+    }
+    .topnav {
+        gap: 16px;
+        width: 100%;
+    }
+    .footercategories-heading {
+        font-size: 13px;
+      }
+}             
